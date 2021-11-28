@@ -28,8 +28,9 @@ brew "tree"
 brew "websocat"
 brew "wget"
 brew "yarn"
-brew "zsh"
 brew "zsh-completions"
+brew "starship"
+
 
 # Casks
 
