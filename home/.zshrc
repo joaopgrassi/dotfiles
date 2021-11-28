@@ -2,14 +2,13 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="/Users/jponge/.oh-my-zsh"
+export ZSH="/Users/jgrassi/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-# ZSH_THEME="robbyrussell"
-#ZSH_THEME="powerlevel10k/powerlevel10k"
+# ZSH_THEME="agnoster"
 
 # Cool themes: robbyrussell, agnoster, juanghurtado
 
@@ -67,14 +66,10 @@ export ZSH="/Users/jponge/.oh-my-zsh"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(  
   gitfast
-  gh
-  httpie
   docker
-  fzf
-  httpie
-  minikube
   zsh-syntax-highlighting
   zsh-autosuggestions
+  k
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -113,7 +108,3 @@ done
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 eval "$(starship init zsh)"
-
-# Add Jbang to environment
-alias j!=jbang
-export PATH="$HOME/.jbang/bin:$PATH"

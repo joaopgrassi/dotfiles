@@ -1,3 +1,1 @@
-# Go workspace and stuff
-export GOPATH=~/Code/workspace-go
-export PATH=$PATH:$GOPATH/bin
+export PATH="$HOME/go/bin:$PATH"

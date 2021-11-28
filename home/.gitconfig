@@ -1,32 +1,30 @@
 [user]
-	name = Julien Ponge
-	email = jponge@redhat.com
-	signingkey = 99447033FD4E69B4
-
-[color]
-	ui = true
-
-[push]
-	default = matching
-
-[rerere]
-	enabled = true
-
-[credential]
-	helper = osxkeychain
+	name = Joao Grassi
+	email = <set_email>
 [core]
-	excludesfile = /Users/jponge/.gitignore_global
+	editor = code --wait
 	autocrlf = input
-[difftool "sourcetree"]
-	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
-	path = 
-[mergetool "sourcetree"]
-	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
-	trustExitCode = true
-[commit]
-	template = /Users/jponge/.stCommitMsg
-	gpgsign = true
-[pull]
-	rebase = false
 [init]
 	defaultBranch = main
+[alias]
+	co = checkout
+	cob = checkout -b
+	cm = !git add -A && git commit -m	
+	b = branch
+	pu = push -u origin HEAD
+	st = status
+[merge]
+    tool = meld
+[mergetool "meld"]
+    # cmd = meld "$LOCAL" "$MERGED" "$REMOTE" --output "$MERGED"
+    cmd = meld "$LOCAL" "$BASE" "$REMOTE" --output "$MERGED"
+[diff]
+	tool = meld
+[difftool]
+    prompt = false
+[difftool "meld"]
+    cmd = meld "$LOCAL" "$REMOTE"
+[cola]
+	spellcheck = false
+[credential]
+	helper = osxkeychain
