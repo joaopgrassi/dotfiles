@@ -22,6 +22,8 @@ I also tend to go with a configuration that is close to what is out of the box.
 1. Clone this into `~/dotfiles`
 2. Run `scripts/setup-with-homebrew.sh`
 3. Run `scripts/link-dot-files.sh`
+4. Run `scripts/use-oh-my-zsh.sh`
+5. Run `scripts/use-sdkman.sh`
 
 ## Recommendations
 
