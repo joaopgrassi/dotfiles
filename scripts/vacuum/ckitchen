@@ -1,0 +1,7 @@
+curl -X 'PUT' \
+  'http://vacuum.local/api/v2/robot/capabilities/ZoneCleaningCapability/presets/c5a51527-4279-4efb-b9ac-a92ba3de884d' \
+  -H 'accept: */*' \
+  -H 'Content-Type: application/json' \
+  -d '{
+  "action": "clean"
+}'
