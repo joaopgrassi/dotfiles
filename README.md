@@ -28,7 +28,7 @@ I also tend to go with a configuration that is close to what is out of the box.
 7. Run `scripts/use-oh-my-zsh.sh`
 8. Run `scripts/use-sdkman.sh`
 
-## Tweeks
+## Tweaks
 
 ### Finder
 
@@ -48,12 +48,3 @@ Setup Keybindings
 mkdir -p ~/Library/KeyBindings && touch DefaultKeyBinding.dict
 ```
 Then add the contents of `misc/DefaultKeyBinding.dict`
-
-## Recommendations
-
-These scripts and files are tailored to _my_ needs and taste.
-
-I don't recommend that you use them as-is on your own machines unless you know what you are doing.
-
-You can take inspiration from these files to do your own dotfiles.
-If you see something to improve, feel-free to drop me an issue or a pull-request!
