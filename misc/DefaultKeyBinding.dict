@@ -1,0 +1,5 @@
+{
+    /* Remap Home / End keys */
+    "\UF729"  = "moveToBeginningOfLine:";    /* Home */
+    "\UF72B"  = "moveToEndOfLine:";          /* End */
+}

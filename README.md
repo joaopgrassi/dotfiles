@@ -19,11 +19,35 @@ I also tend to go with a configuration that is close to what is out of the box.
 
 ## Getting up and running
 
-1. Clone this into `~/dotfiles`
-2. Run `scripts/setup-with-homebrew.sh`
-3. Run `scripts/link-dot-files.sh`
-4. Run `scripts/use-oh-my-zsh.sh`
-5. Run `scripts/use-sdkman.sh`
+1. Update macOS
+2. Install Brew https://brew.sh/   
+3. Install Git `brew install git` 
+4. Clone this repo into `~/dotfiles`
+5. Run `scripts/setup-with-homebrew.sh`
+6. Run `scripts/link-dot-files.sh`
+7. Run `scripts/use-oh-my-zsh.sh`
+8. Run `scripts/use-sdkman.sh`
+
+## Tweeks
+
+### Finder
+
+- View -> Show Status Bar
+- View -> Show Path Bar
+- View -> Show Tab Bar
+
+### Maccy
+
+- Set up global shortcut to `control + backtick`
+
+### Keybindings
+
+Setup Keybindings
+
+```shell
+mkdir -p ~/Library/KeyBindings && touch DefaultKeyBinding.dict
+```
+Then add the contents of `misc/DefaultKeyBinding.dict`
 
 ## Recommendations
 
