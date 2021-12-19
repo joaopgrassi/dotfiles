@@ -29,7 +29,7 @@ brew "wget"
 brew "yarn"
 brew "zsh-completions"
 brew "starship"
-
+brew "hugo"
 
 # Casks
 
@@ -48,6 +48,8 @@ cask "visual-studio-code"
 cask "vlc"
 cask "dotnet-sdk"
 cask "jetbrains-toolbox"
+cask "coteditor"
+
 # cask "disk-inventory-x"
 # cask "mactex"
 
