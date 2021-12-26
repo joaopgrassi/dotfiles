@@ -1,5 +1,7 @@
 {
-    /* Remap Home / End keys */
-    "\UF729"  = "moveToBeginningOfLine:";    /* Home */
-    "\UF72B"  = "moveToEndOfLine:";          /* End */
+    /* Remap Home / End to be correct */
+    "\UF729"  = moveToBeginningOfLine:;    /* Home */
+    "\UF72B"  = moveToEndOfLine:;          /* End */
+    "$\UF729" = moveToBeginningOfLineAndModifySelection:; // shift-home
+    "$\UF72B" = moveToEndOfLineAndModifySelection:; // shift-end
 }
