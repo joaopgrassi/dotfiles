@@ -33,6 +33,7 @@ brew "hugo"
 # Casks
 
 cask "maccy"
+cask "alfred"
 cask "meld"
 cask "the-unarchiver"
 cask "firefox"
@@ -48,6 +49,8 @@ cask "vlc"
 cask "dotnet-sdk"
 cask "jetbrains-toolbox"
 cask "coteditor"
+cask "rawtherapee"
+cask "stats"
 
 # cask "disk-inventory-x"
 # cask "mactex"
