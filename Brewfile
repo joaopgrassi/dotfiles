@@ -29,6 +29,7 @@ brew "yarn"
 brew "zsh-completions"
 brew "starship"
 brew "hugo"
+brew "libfido2"
 
 # Casks
 
