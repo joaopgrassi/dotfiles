@@ -52,6 +52,7 @@ cask "jetbrains-toolbox"
 cask "coteditor"
 cask "rawtherapee"
 cask "stats"
+cask "appcleaner"
 
 # cask "disk-inventory-x"
 # cask "mactex"

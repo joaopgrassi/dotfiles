@@ -7,4 +7,5 @@ export LANG=en_US.UTF-8
 
 export EDITOR='nano -w'
 
+# export PATH=$(brew --prefix openssh)/bin:$PATH
 export PATH="/usr/local/sbin:$PATH"
