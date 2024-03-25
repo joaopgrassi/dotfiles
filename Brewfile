@@ -53,6 +53,7 @@ cask "coteditor"
 cask "rawtherapee"
 cask "stats"
 cask "appcleaner"
+cask "linearmouse"
 
 # cask "disk-inventory-x"
 # cask "mactex"
